@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>MCServer_Graphics_Launcher</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>MCServer Graphics Launcher</AssemblyName>
+    <Platforms>x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EO.WebBrowser.WinForm" Version="21.1.67" />
+  </ItemGroup>
+
+</Project>
