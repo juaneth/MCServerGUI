@@ -9,8 +9,4 @@
     <Platforms>x64</Platforms>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="EO.WebBrowser.WinForm" Version="21.1.67" />
-  </ItemGroup>
-
 </Project>
