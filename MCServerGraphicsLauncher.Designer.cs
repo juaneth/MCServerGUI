@@ -31,39 +31,37 @@ namespace MCServer_Graphics
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.run5 = new System.Windows.Forms.Button();
+            this.edit5 = new System.Windows.Forms.Button();
+            this.serverip5 = new System.Windows.Forms.Label();
+            this.servername5 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.run4 = new System.Windows.Forms.Button();
+            this.edit4 = new System.Windows.Forms.Button();
+            this.serverip4 = new System.Windows.Forms.Label();
+            this.servername4 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.run3 = new System.Windows.Forms.Button();
+            this.edit3 = new System.Windows.Forms.Button();
+            this.serverip3 = new System.Windows.Forms.Label();
+            this.servername3 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.run2 = new System.Windows.Forms.Button();
+            this.edit2 = new System.Windows.Forms.Button();
+            this.serverip2 = new System.Windows.Forms.Label();
+            this.servername2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.run1 = new System.Windows.Forms.Button();
+            this.edit1 = new System.Windows.Forms.Button();
+            this.serverip1 = new System.Windows.Forms.Label();
+            this.servername1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -82,330 +80,362 @@ namespace MCServer_Graphics
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.DimGray;
-            this.panel7.Controls.Add(this.button9);
-            this.panel7.Controls.Add(this.button10);
-            this.panel7.Controls.Add(this.label9);
-            this.panel7.Controls.Add(this.label10);
+            this.panel7.Controls.Add(this.run5);
+            this.panel7.Controls.Add(this.edit5);
+            this.panel7.Controls.Add(this.serverip5);
+            this.panel7.Controls.Add(this.servername5);
             this.panel7.Location = new System.Drawing.Point(13, 449);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(368, 103);
             this.panel7.TabIndex = 3;
             // 
+            // run5
+            // 
+            this.run5.BackColor = System.Drawing.SystemColors.Control;
+            this.run5.BackgroundImage = global::MCServer_Graphics_Launcher.Properties.Resources.mcbutton;
+            this.run5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.run5.FlatAppearance.BorderSize = 0;
+            this.run5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.run5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.run5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.run5.Font = new System.Drawing.Font("Minecraft", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.run5.ForeColor = System.Drawing.Color.White;
+            this.run5.Location = new System.Drawing.Point(168, 12);
+            this.run5.Name = "run5";
+            this.run5.Size = new System.Drawing.Size(185, 36);
+            this.run5.TabIndex = 7;
+            this.run5.Text = "Run";
+            this.run5.UseVisualStyleBackColor = false;
+            // 
+            // edit5
+            // 
+            this.edit5.BackColor = System.Drawing.SystemColors.Control;
+            this.edit5.BackgroundImage = global::MCServer_Graphics_Launcher.Properties.Resources.mcbutton;
+            this.edit5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.edit5.FlatAppearance.BorderSize = 0;
+            this.edit5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.edit5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.edit5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.edit5.Font = new System.Drawing.Font("Minecraft", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.edit5.ForeColor = System.Drawing.Color.White;
+            this.edit5.Location = new System.Drawing.Point(168, 54);
+            this.edit5.Name = "edit5";
+            this.edit5.Size = new System.Drawing.Size(185, 36);
+            this.edit5.TabIndex = 6;
+            this.edit5.Text = "Edit";
+            this.edit5.UseVisualStyleBackColor = false;
+            // 
+            // serverip5
+            // 
+            this.serverip5.AutoSize = true;
+            this.serverip5.Font = new System.Drawing.Font("Minecraft", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.serverip5.ForeColor = System.Drawing.Color.DarkGray;
+            this.serverip5.Location = new System.Drawing.Point(15, 55);
+            this.serverip5.Name = "serverip5";
+            this.serverip5.Size = new System.Drawing.Size(119, 19);
+            this.serverip5.TabIndex = 5;
+            this.serverip5.Text = "mc.hypixel.net";
+            // 
+            // servername5
+            // 
+            this.servername5.AutoSize = true;
+            this.servername5.Font = new System.Drawing.Font("Minecraft", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.servername5.ForeColor = System.Drawing.Color.White;
+            this.servername5.Location = new System.Drawing.Point(15, 20);
+            this.servername5.Name = "servername5";
+            this.servername5.Size = new System.Drawing.Size(128, 32);
+            this.servername5.TabIndex = 4;
+            this.servername5.Text = "Hypixel";
+            // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.DimGray;
-            this.panel6.Controls.Add(this.button7);
-            this.panel6.Controls.Add(this.button8);
-            this.panel6.Controls.Add(this.label7);
-            this.panel6.Controls.Add(this.label8);
+            this.panel6.Controls.Add(this.run4);
+            this.panel6.Controls.Add(this.edit4);
+            this.panel6.Controls.Add(this.serverip4);
+            this.panel6.Controls.Add(this.servername4);
             this.panel6.Location = new System.Drawing.Point(13, 340);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(368, 103);
             this.panel6.TabIndex = 3;
             // 
+            // run4
+            // 
+            this.run4.BackColor = System.Drawing.SystemColors.Control;
+            this.run4.BackgroundImage = global::MCServer_Graphics_Launcher.Properties.Resources.mcbutton;
+            this.run4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.run4.FlatAppearance.BorderSize = 0;
+            this.run4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.run4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.run4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.run4.Font = new System.Drawing.Font("Minecraft", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.run4.ForeColor = System.Drawing.Color.White;
+            this.run4.Location = new System.Drawing.Point(168, 12);
+            this.run4.Name = "run4";
+            this.run4.Size = new System.Drawing.Size(185, 36);
+            this.run4.TabIndex = 7;
+            this.run4.Text = "Run";
+            this.run4.UseVisualStyleBackColor = false;
+            // 
+            // edit4
+            // 
+            this.edit4.BackColor = System.Drawing.SystemColors.Control;
+            this.edit4.BackgroundImage = global::MCServer_Graphics_Launcher.Properties.Resources.mcbutton;
+            this.edit4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.edit4.FlatAppearance.BorderSize = 0;
+            this.edit4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.edit4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.edit4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.edit4.Font = new System.Drawing.Font("Minecraft", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.edit4.ForeColor = System.Drawing.Color.White;
+            this.edit4.Location = new System.Drawing.Point(168, 54);
+            this.edit4.Name = "edit4";
+            this.edit4.Size = new System.Drawing.Size(185, 36);
+            this.edit4.TabIndex = 6;
+            this.edit4.Text = "Edit";
+            this.edit4.UseVisualStyleBackColor = false;
+            // 
+            // serverip4
+            // 
+            this.serverip4.AutoSize = true;
+            this.serverip4.Font = new System.Drawing.Font("Minecraft", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.serverip4.ForeColor = System.Drawing.Color.DarkGray;
+            this.serverip4.Location = new System.Drawing.Point(15, 55);
+            this.serverip4.Name = "serverip4";
+            this.serverip4.Size = new System.Drawing.Size(119, 19);
+            this.serverip4.TabIndex = 5;
+            this.serverip4.Text = "mc.hypixel.net";
+            // 
+            // servername4
+            // 
+            this.servername4.AutoSize = true;
+            this.servername4.Font = new System.Drawing.Font("Minecraft", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.servername4.ForeColor = System.Drawing.Color.White;
+            this.servername4.Location = new System.Drawing.Point(15, 20);
+            this.servername4.Name = "servername4";
+            this.servername4.Size = new System.Drawing.Size(128, 32);
+            this.servername4.TabIndex = 4;
+            this.servername4.Text = "Hypixel";
+            // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.DimGray;
-            this.panel5.Controls.Add(this.button5);
-            this.panel5.Controls.Add(this.button6);
-            this.panel5.Controls.Add(this.label5);
-            this.panel5.Controls.Add(this.label6);
+            this.panel5.Controls.Add(this.run3);
+            this.panel5.Controls.Add(this.edit3);
+            this.panel5.Controls.Add(this.serverip3);
+            this.panel5.Controls.Add(this.servername3);
             this.panel5.Location = new System.Drawing.Point(13, 231);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(368, 103);
             this.panel5.TabIndex = 2;
             // 
+            // run3
+            // 
+            this.run3.BackColor = System.Drawing.SystemColors.Control;
+            this.run3.BackgroundImage = global::MCServer_Graphics_Launcher.Properties.Resources.mcbutton;
+            this.run3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.run3.FlatAppearance.BorderSize = 0;
+            this.run3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.run3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.run3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.run3.Font = new System.Drawing.Font("Minecraft", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.run3.ForeColor = System.Drawing.Color.White;
+            this.run3.Location = new System.Drawing.Point(168, 12);
+            this.run3.Name = "run3";
+            this.run3.Size = new System.Drawing.Size(185, 36);
+            this.run3.TabIndex = 7;
+            this.run3.Text = "Run";
+            this.run3.UseVisualStyleBackColor = false;
+            // 
+            // edit3
+            // 
+            this.edit3.BackColor = System.Drawing.SystemColors.Control;
+            this.edit3.BackgroundImage = global::MCServer_Graphics_Launcher.Properties.Resources.mcbutton;
+            this.edit3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.edit3.FlatAppearance.BorderSize = 0;
+            this.edit3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.edit3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.edit3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.edit3.Font = new System.Drawing.Font("Minecraft", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.edit3.ForeColor = System.Drawing.Color.White;
+            this.edit3.Location = new System.Drawing.Point(168, 54);
+            this.edit3.Name = "edit3";
+            this.edit3.Size = new System.Drawing.Size(185, 36);
+            this.edit3.TabIndex = 6;
+            this.edit3.Text = "Edit";
+            this.edit3.UseVisualStyleBackColor = false;
+            // 
+            // serverip3
+            // 
+            this.serverip3.AutoSize = true;
+            this.serverip3.Font = new System.Drawing.Font("Minecraft", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.serverip3.ForeColor = System.Drawing.Color.DarkGray;
+            this.serverip3.Location = new System.Drawing.Point(15, 55);
+            this.serverip3.Name = "serverip3";
+            this.serverip3.Size = new System.Drawing.Size(119, 19);
+            this.serverip3.TabIndex = 5;
+            this.serverip3.Text = "mc.hypixel.net";
+            // 
+            // servername3
+            // 
+            this.servername3.AutoSize = true;
+            this.servername3.Font = new System.Drawing.Font("Minecraft", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.servername3.ForeColor = System.Drawing.Color.White;
+            this.servername3.Location = new System.Drawing.Point(15, 20);
+            this.servername3.Name = "servername3";
+            this.servername3.Size = new System.Drawing.Size(128, 32);
+            this.servername3.TabIndex = 4;
+            this.servername3.Text = "Hypixel";
+            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.DimGray;
-            this.panel4.Controls.Add(this.button3);
-            this.panel4.Controls.Add(this.button4);
-            this.panel4.Controls.Add(this.label3);
-            this.panel4.Controls.Add(this.label4);
+            this.panel4.Controls.Add(this.run2);
+            this.panel4.Controls.Add(this.edit2);
+            this.panel4.Controls.Add(this.serverip2);
+            this.panel4.Controls.Add(this.servername2);
             this.panel4.Location = new System.Drawing.Point(13, 122);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(368, 103);
             this.panel4.TabIndex = 1;
             // 
+            // run2
+            // 
+            this.run2.BackColor = System.Drawing.SystemColors.Control;
+            this.run2.BackgroundImage = global::MCServer_Graphics_Launcher.Properties.Resources.mcbutton;
+            this.run2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.run2.FlatAppearance.BorderSize = 0;
+            this.run2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.run2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.run2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.run2.Font = new System.Drawing.Font("Minecraft", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.run2.ForeColor = System.Drawing.Color.White;
+            this.run2.Location = new System.Drawing.Point(168, 12);
+            this.run2.Name = "run2";
+            this.run2.Size = new System.Drawing.Size(185, 36);
+            this.run2.TabIndex = 7;
+            this.run2.Text = "Run";
+            this.run2.UseVisualStyleBackColor = false;
+            // 
+            // edit2
+            // 
+            this.edit2.BackColor = System.Drawing.SystemColors.Control;
+            this.edit2.BackgroundImage = global::MCServer_Graphics_Launcher.Properties.Resources.mcbutton;
+            this.edit2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.edit2.FlatAppearance.BorderSize = 0;
+            this.edit2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.edit2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.edit2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.edit2.Font = new System.Drawing.Font("Minecraft", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.edit2.ForeColor = System.Drawing.Color.White;
+            this.edit2.Location = new System.Drawing.Point(168, 54);
+            this.edit2.Name = "edit2";
+            this.edit2.Size = new System.Drawing.Size(185, 36);
+            this.edit2.TabIndex = 6;
+            this.edit2.Text = "Edit";
+            this.edit2.UseVisualStyleBackColor = false;
+            // 
+            // serverip2
+            // 
+            this.serverip2.AutoSize = true;
+            this.serverip2.Font = new System.Drawing.Font("Minecraft", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.serverip2.ForeColor = System.Drawing.Color.DarkGray;
+            this.serverip2.Location = new System.Drawing.Point(15, 55);
+            this.serverip2.Name = "serverip2";
+            this.serverip2.Size = new System.Drawing.Size(119, 19);
+            this.serverip2.TabIndex = 5;
+            this.serverip2.Text = "mc.hypixel.net";
+            // 
+            // servername2
+            // 
+            this.servername2.AutoSize = true;
+            this.servername2.Font = new System.Drawing.Font("Minecraft", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.servername2.ForeColor = System.Drawing.Color.White;
+            this.servername2.Location = new System.Drawing.Point(15, 20);
+            this.servername2.Name = "servername2";
+            this.servername2.Size = new System.Drawing.Size(128, 32);
+            this.servername2.TabIndex = 4;
+            this.servername2.Text = "Hypixel";
+            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.DimGray;
-            this.panel3.Controls.Add(this.button2);
-            this.panel3.Controls.Add(this.button1);
-            this.panel3.Controls.Add(this.label2);
-            this.panel3.Controls.Add(this.label1);
+            this.panel3.Controls.Add(this.run1);
+            this.panel3.Controls.Add(this.edit1);
+            this.panel3.Controls.Add(this.serverip1);
+            this.panel3.Controls.Add(this.servername1);
             this.panel3.Location = new System.Drawing.Point(13, 13);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(368, 103);
             this.panel3.TabIndex = 0;
             // 
-            // button2
+            // run1
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.Control;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(169, 12);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(185, 36);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Run";
-            this.button2.UseVisualStyleBackColor = false;
+            this.run1.BackColor = System.Drawing.SystemColors.Control;
+            this.run1.BackgroundImage = global::MCServer_Graphics_Launcher.Properties.Resources.mcbutton;
+            this.run1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.run1.FlatAppearance.BorderSize = 0;
+            this.run1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.run1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.run1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.run1.Font = new System.Drawing.Font("Minecraft", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.run1.ForeColor = System.Drawing.Color.White;
+            this.run1.Location = new System.Drawing.Point(169, 12);
+            this.run1.Name = "run1";
+            this.run1.Size = new System.Drawing.Size(185, 36);
+            this.run1.TabIndex = 3;
+            this.run1.Text = "Run";
+            this.run1.UseVisualStyleBackColor = false;
+            this.run1.MouseLeave += new System.EventHandler(this.run1_MouseLeave);
+            this.run1.MouseHover += new System.EventHandler(this.run1_MouseHover);
             // 
-            // button1
+            // edit1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.Control;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(169, 54);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(185, 36);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Edit";
-            this.button1.UseVisualStyleBackColor = false;
+            this.edit1.BackColor = System.Drawing.SystemColors.Control;
+            this.edit1.BackgroundImage = global::MCServer_Graphics_Launcher.Properties.Resources.mcbutton;
+            this.edit1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.edit1.FlatAppearance.BorderSize = 0;
+            this.edit1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.edit1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.edit1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.edit1.Font = new System.Drawing.Font("Minecraft", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.edit1.ForeColor = System.Drawing.Color.White;
+            this.edit1.Location = new System.Drawing.Point(169, 54);
+            this.edit1.Name = "edit1";
+            this.edit1.Size = new System.Drawing.Size(185, 36);
+            this.edit1.TabIndex = 2;
+            this.edit1.Text = "Edit";
+            this.edit1.UseVisualStyleBackColor = false;
             // 
-            // label2
+            // serverip1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.DarkGray;
-            this.label2.Location = new System.Drawing.Point(16, 55);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(138, 24);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "mc.hypixel.net";
+            this.serverip1.AutoSize = true;
+            this.serverip1.Font = new System.Drawing.Font("Minecraft", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.serverip1.ForeColor = System.Drawing.Color.DarkGray;
+            this.serverip1.Location = new System.Drawing.Point(16, 55);
+            this.serverip1.Name = "serverip1";
+            this.serverip1.Size = new System.Drawing.Size(119, 19);
+            this.serverip1.TabIndex = 1;
+            this.serverip1.Text = "mc.hypixel.net";
             // 
-            // label1
+            // servername1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Trebuchet MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(16, 20);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(106, 35);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Hypixel";
+            this.servername1.AutoSize = true;
+            this.servername1.Font = new System.Drawing.Font("Minecraft", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.servername1.ForeColor = System.Drawing.Color.White;
+            this.servername1.Location = new System.Drawing.Point(16, 20);
+            this.servername1.Name = "servername1";
+            this.servername1.Size = new System.Drawing.Size(128, 32);
+            this.servername1.TabIndex = 0;
+            this.servername1.Text = "Hypixel";
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel2.Controls.Add(this.label11);
             this.panel2.Location = new System.Drawing.Point(426, 12);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(535, 571);
             this.panel2.TabIndex = 1;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.SystemColors.Control;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(168, 12);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(185, 36);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "Run";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.SystemColors.Control;
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Location = new System.Drawing.Point(168, 54);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(185, 36);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "Edit";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.DarkGray;
-            this.label3.Location = new System.Drawing.Point(15, 55);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(138, 24);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "mc.hypixel.net";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Trebuchet MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(15, 20);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(106, 35);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Hypixel";
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.SystemColors.Control;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.ForeColor = System.Drawing.Color.Black;
-            this.button5.Location = new System.Drawing.Point(168, 12);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(185, 36);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "Run";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.SystemColors.Control;
-            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.ForeColor = System.Drawing.Color.Black;
-            this.button6.Location = new System.Drawing.Point(168, 54);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(185, 36);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "Edit";
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.DarkGray;
-            this.label5.Location = new System.Drawing.Point(15, 55);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(138, 24);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "mc.hypixel.net";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Trebuchet MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(15, 20);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(106, 35);
-            this.label6.TabIndex = 4;
-            this.label6.Text = "Hypixel";
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.SystemColors.Control;
-            this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.ForeColor = System.Drawing.Color.Black;
-            this.button7.Location = new System.Drawing.Point(168, 12);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(185, 36);
-            this.button7.TabIndex = 7;
-            this.button7.Text = "Run";
-            this.button7.UseVisualStyleBackColor = false;
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.SystemColors.Control;
-            this.button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.ForeColor = System.Drawing.Color.Black;
-            this.button8.Location = new System.Drawing.Point(168, 54);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(185, 36);
-            this.button8.TabIndex = 6;
-            this.button8.Text = "Edit";
-            this.button8.UseVisualStyleBackColor = false;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label7.ForeColor = System.Drawing.Color.DarkGray;
-            this.label7.Location = new System.Drawing.Point(15, 55);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(138, 24);
-            this.label7.TabIndex = 5;
-            this.label7.Text = "mc.hypixel.net";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Trebuchet MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(15, 20);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(106, 35);
-            this.label8.TabIndex = 4;
-            this.label8.Text = "Hypixel";
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.SystemColors.Control;
-            this.button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.ForeColor = System.Drawing.Color.Black;
-            this.button9.Location = new System.Drawing.Point(168, 12);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(185, 36);
-            this.button9.TabIndex = 7;
-            this.button9.Text = "Run";
-            this.button9.UseVisualStyleBackColor = false;
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.SystemColors.Control;
-            this.button10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.ForeColor = System.Drawing.Color.Black;
-            this.button10.Location = new System.Drawing.Point(168, 54);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(185, 36);
-            this.button10.TabIndex = 6;
-            this.button10.Text = "Edit";
-            this.button10.UseVisualStyleBackColor = false;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.Color.DarkGray;
-            this.label9.Location = new System.Drawing.Point(15, 55);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(138, 24);
-            this.label9.TabIndex = 5;
-            this.label9.Text = "mc.hypixel.net";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Trebuchet MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(15, 20);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(106, 35);
-            this.label10.TabIndex = 4;
-            this.label10.Text = "Hypixel";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(106, 90);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(44, 15);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "label11";
             // 
             // MCServerGraphicsLauncher
             // 
@@ -430,8 +460,6 @@ namespace MCServer_Graphics
             this.panel4.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -445,27 +473,26 @@ namespace MCServer_Graphics
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Button run1;
+        private System.Windows.Forms.Button edit1;
+        private System.Windows.Forms.Label serverip1;
+        private System.Windows.Forms.Label servername1;
+        private System.Windows.Forms.Button run5;
+        private System.Windows.Forms.Button edit5;
+        private System.Windows.Forms.Label serverip5;
+        private System.Windows.Forms.Label servername5;
+        private System.Windows.Forms.Button run4;
+        private System.Windows.Forms.Button edit4;
+        private System.Windows.Forms.Label serverip4;
+        private System.Windows.Forms.Label servername4;
+        private System.Windows.Forms.Button run3;
+        private System.Windows.Forms.Button edit3;
+        private System.Windows.Forms.Label serverip3;
+        private System.Windows.Forms.Label servername3;
+        private System.Windows.Forms.Button run2;
+        private System.Windows.Forms.Button edit2;
+        private System.Windows.Forms.Label serverip2;
+        private System.Windows.Forms.Label servername2;
     }
 }
 

@@ -1,12 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace MCServer_Graphics
@@ -20,11 +12,19 @@ namespace MCServer_Graphics
 
         public string appPath = Application.StartupPath;
 
-        
-
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void run1_MouseHover(object sender, EventArgs e)
+        {
+            run1.BackgroundImage = MCServer_Graphics_Launcher.Properties.Resources.mcbuttonhover;
+        }
+
+        private void run1_MouseLeave(object sender, EventArgs e)
+        {
+            run1.BackgroundImage = MCServer_Graphics_Launcher.Properties.Resources.mcbutton;
         }
     }
 }
