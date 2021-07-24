@@ -386,8 +386,6 @@ namespace MCServer_Graphics
             this.run1.TabIndex = 3;
             this.run1.Text = "Run";
             this.run1.UseVisualStyleBackColor = false;
-            this.run1.MouseLeave += new System.EventHandler(this.run1_MouseLeave);
-            this.run1.MouseHover += new System.EventHandler(this.run1_MouseHover);
             // 
             // edit1
             // 
@@ -441,7 +439,7 @@ namespace MCServer_Graphics
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(973, 595);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);

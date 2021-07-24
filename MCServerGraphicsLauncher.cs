@@ -16,15 +16,5 @@ namespace MCServer_Graphics
         {
 
         }
-
-        private void run1_MouseHover(object sender, EventArgs e)
-        {
-            run1.BackgroundImage = MCServer_Graphics_Launcher.Properties.Resources.mcbuttonhover;
-        }
-
-        private void run1_MouseLeave(object sender, EventArgs e)
-        {
-            run1.BackgroundImage = MCServer_Graphics_Launcher.Properties.Resources.mcbutton;
-        }
     }
 }
